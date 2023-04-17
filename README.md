@@ -47,7 +47,7 @@ Durante a análise exploratória dos dados, várias perguntas e hipóteses podem
 
 Após a análise exploratória dos dados, compreendendo correlações, dispersões e outras métricas, segue à criação de um modelo de aprendizagem de máquina:
 
-**Pré-processamento dos dados**
+### Pré-processamento dos dados
 
 Existem diversas etapas de pré-processamento de dados que são importantes para construir um bom modelo de machine learning. Algumas delas incluem:
 
@@ -59,15 +59,15 @@ Existem diversas etapas de pré-processamento de dados que são importantes para
 
 Após o pré-processamento dos dados, é necessário transformá-los em um formato que possa ser usado pelo modelo. Normalmente, isso envolve a separação dos dados em variáveis independentes e dependentes.
 
-**Separação em classes**
+### Separação em classes
 
 É necessário separar as classes das variáveis independentes. No nosso caso, queremos prever se um veículo será vendido em menos ou mais de 90 dias após sua inclusão na base de dados. Portanto, essa variável será nossa classe.
 
-**Separação em dados de treino e teste**
+### Separação em dados de treino e teste
 
 Para avaliar o desempenho do modelo, é necessário separar os dados em um conjunto de treinamento e um conjunto de teste.
 
-**Aplicação do modelo**
+### Aplicação do modelo
 
 Após o treinamento do modelo, é necessário aplicá-lo aos dados de teste para avaliar sua precisão e desempenho. Podemos utilizar diversos modelos de machine learning, como regressão logística, **árvores de decisão**, random forest, entre outros.
 
@@ -75,7 +75,7 @@ Uma árvore de decisão (escolha para este projeto) é um algoritmo de aprendiza
 
 Para mais detalhes, visite: ([Decision Tree e Random Forest para Classificação e Regressão](https://blogdozouza.wordpress.com/2019/09/30/decision-trees-e-random-forests-para-classificacao-e-regressao/))
 
-**Validação do modelo**
+### Validação do modelo
 
 Após a aplicação do modelo aos dados de teste, é importante avaliar sua precisão. Podemos utilizar diversas métricas de avaliação, como matriz de confusão, acurácia, precision, recall e F1-score:
 
@@ -90,7 +90,7 @@ Quando temos mais de uma classe no conjunto de dados, podemos também utilizar a
 - **Macro avg** é a média aritmética das métricas por classe
 - **Weighted avg** é a média ponderada pela proporção de amostras em cada classe
 
-**Feature Engineering**
+### Feature Engineering
 
 Etapa crucial no desenvolvimento de modelos de machine learning, porque pode ajudar a melhorar o desempenho do modelo e a capacidade de generalização. Em geral, feature engineering envolve a seleção das variáveis mais importantes para um determinado problema, bem como a criação de novas variáveis que possam ajudar a capturar relações mais complexas entre as variáveis.
 
