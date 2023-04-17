@@ -5,11 +5,11 @@ A análise exploratória de dados (EDA, do inglês: Exploratory Data Analysis) �
  
 Consulte o seguinte artigo utilizado como referência para esse estudo: [Análise Exploratória de Dados com Python](https://medium.com/@aasouzaconsult/python-para-an%C3%A1lise-de-dados-24028d7013b3)
 
-#### Pré-requisitos
+## Pré-requisitos
 
 Antes de começar, certifique-se de ter instalado o `Python 3.x`, uma IDE como Jupyter Notebook e algumas bibliotecas que serão utilizadas ao longo do estudo, como `numpy`, `pandas`, `matplotlib`, `seaborn` e `scikitlearn`.
 
-#### Base de dados
+## Base de dados
 
 A base de dados utilizada neste projeto é de uma concessionária de veículos e trata das vendas de veículos usados. As informações que compõem o conjunto de dados são:
 
@@ -27,23 +27,23 @@ A base de dados utilizada neste projeto é de uma concessionária de veículos e
 - state: Estado do Carro (região)
 - make.model: Modelo
 
-#### Instalação
+## Instalação
 
 1. Clone o repositório para sua máquina local.
 2. Certifique-se de ter os pré-requisitos instalados (consulte a seção acima).
 3. Abra o arquivo `eda.ipynb` no Jupyter Notebook ou outra ferramenta similar.
 
-#### Uso
+## Uso
 
 O arquivo `eda.ipynb` contém todo o código utilizado na análise de dados. Ele é dividido em seções que correspondem a diferentes etapas do processo de análise, como leitura, visualização, análise estatística e etapas de Machine Learning.
 
 Ao executar cada célula do notebook, você poderá ver os resultados das operações realizadas em tempo real. Você também pode modificar o código e experimentar com diferentes técnicas.
 
-#### Perguntas e hipóteses
+## Perguntas e hipóteses
 
 Durante a análise exploratória dos dados, várias perguntas e hipóteses podem surgir. Para responder à essas perguntas, utilizaremos gráficos e estatísticas descritivas. Exemplos: gráficos de dispersão, histogramas, boxplots, mapas de calor e outras visualizações para identificar padrões e correlações entre variáveis.
 
-#### Modelo de Machine Learning
+## Modelo de Machine Learning
 
 Após a análise exploratória dos dados, compreendendo correlações, dispersões e outras métricas, segue à criação de um modelo de aprendizagem de máquina:
 
@@ -96,11 +96,11 @@ Etapa crucial no desenvolvimento de modelos de machine learning, porque pode aju
 
 Nesse caso, descobrimos as variáveis (features) mais importantes para o modelo usando Árvore de Decisão.
 
-#### Conclusão
+## Conclusão
 
 A análise exploratória de dados e a construção de um modelo de machine learning podem ajudar a concessionária de veículos a entender melhor seus clientes e a tomar decisões informadas sobre o gerenciamento de estoque e a adoção de medidas para aumentar as vendas. É importante lembrar que esses processos são iterativos e devem ser continuamente revisados e ajustados à medida que surgem novos insights e informações.
 
-#### Contato e licença
+## Contato e licença
 
 Este é um objeto de estudo, que utilizou como referência o artigo mencionado anteriormente.
 Sem restrições ao uso, modificações e distribuição do código fonte.
